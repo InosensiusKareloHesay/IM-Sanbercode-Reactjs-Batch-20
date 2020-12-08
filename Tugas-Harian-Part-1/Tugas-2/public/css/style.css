@@ -1,0 +1,88 @@
+body {
+    background-image: url(../img/pattern.jpg);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-variant: small-caps;
+}
+
+header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: white;
+}
+
+nav {
+    position: relative;
+    width: 100%;
+    padding: 20px 0 20px 0;
+    box-shadow: 5px 2px 30px 0px grey;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 0 0 0;
+}
+
+nav ul li {
+    display: block;
+    color: blue;
+    text-decoration: underline;
+    margin: 0px 15px 0px 15px;
+}
+
+nav ul li:hover {
+    color: green;
+}
+
+nav ul li:active {
+    color:lightblue;
+}
+
+section {
+    margin: 8% 5% 2% 5%;
+    padding: 2px 40px 20px 40px;
+    border-radius: 5%;
+    background-color: #fffafa;
+}
+
+footer {
+    background-color: black;
+    padding: 10px 0px 10px 0px;
+}
+
+footer h5 {
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+a:link{
+    color: purple;
+}
+
+a:hover{
+    color: black;
+}
+
+a:active{
+    color: red;
+}
+
+#logo {
+    position: fixed;
+}
+
+#article-list div {
+    margin-top: 50px;
+    border-bottom: 3px solid black;
+}
+
+#article-list div a {
+    text-decoration: none;
+}
