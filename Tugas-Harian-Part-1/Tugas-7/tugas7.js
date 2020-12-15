@@ -52,23 +52,22 @@ kodok.jump() // "hop hop
 
 
 // Soal 2
-
-class Clock {
-    constructor(template){
+class Clock{
+    constructor({template}){
         this._template = template
         this._timer = 0
     }
 
-    start(){
+    start = () => {
         this.render()
         this._timer = setInterval(this.render, 1000)
     }
-
-    stop(){
+        
+    stop = () => {
         clearInterval(this._timer);
     }
 
-    render(){
+    render = () => {
         this._date = new Date()
 
         this._hours = this._date.getHours();
@@ -79,12 +78,15 @@ class Clock {
   
         this._secs = this._date.getSeconds();
         if (this._secs < 10) this._secs = '0' + this._secs;
-  
-        this._output = `${this._hours}:${this._mins}:${this._secs}` 
-  
-        console.log(this._output);
+
+        var output = this._template
+            .replace('h', this._hours)
+            .replace('m', this._mins)
+            .replace('s', this._secs)
+    
+        console.log(output);
     }
 }
-  
+
 var clock = new Clock({template: 'h:m:s'});
 clock.start(); 
