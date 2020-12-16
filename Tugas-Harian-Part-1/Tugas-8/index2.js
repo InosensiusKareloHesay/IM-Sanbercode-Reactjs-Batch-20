@@ -6,6 +6,7 @@ var books = [
     {name: 'Kalkulus', timeSpent: 4000}
 ]
 
+// Soal 2
 var sisaWaktu = 10000
 var i = 0
 
