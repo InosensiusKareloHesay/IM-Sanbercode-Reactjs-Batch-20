@@ -37,12 +37,6 @@ class Timer extends Component{
     });
   }
 
-  remove(){
-      this.setState({
-          hideComponent: false
-      })
-  }
-
   render(){
       if(this.state.time > 0){
         return( 
