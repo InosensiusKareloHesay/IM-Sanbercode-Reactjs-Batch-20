@@ -32,7 +32,6 @@ class Lists extends Component{
     
     handleSubmit(event){
         event.preventDefault()
-        
         let indexSkrg = this.state.currentIndex
         let buah = this.state.dataHargaBuah
         let baru = {
