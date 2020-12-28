@@ -21,6 +21,7 @@ const Lists = () =>{
       },[dataHargaBuah])
     
     const handleSubmit = (event) =>{
+        console.log(event)
         event.preventDefault()
         
         if (currentID === null){
@@ -109,7 +110,7 @@ const Lists = () =>{
                         </tbody>
                     </table>
                     {/* Form */}
-                    <h1 style={{textAlign: "center"}}><strong>Form Daftar Buah</strong></h1>
+                        <h1 style={{textAlign: "center"}}><strong>Form Daftar Buah</strong></h1>
                             <form onSubmit={handleSubmit}>
                                 <div style={{margin: "2% 20% 2% 20%", padding: "20px",border: "1px solid black"}}>
                                     <label>
@@ -149,9 +150,9 @@ const Lists = () =>{
                                     <br></br>
                                 </div>
                             </form>
-                            </>)
-                }
-            </>
+                </>)
+            }
+        </>
     )
 }
 
