@@ -82,7 +82,7 @@ class Lists extends Component{
 
     render(){
         return(
-          <>
+          <div style={{marginTop: "10%"}}>
             <h1 style={{textAlign: "center"}}><strong>Tabel Harga Buah</strong></h1>
             <table style={{marginLeft: "auto",marginRight: "auto",marginBottom: "5%",border: "solid black"}} border="3" cellpadding="5" width="1000px">
               <thead>
@@ -152,7 +152,7 @@ class Lists extends Component{
                         <br></br>
                     </div>
                 </form>
-          </>
+          </div>
         )
     }
 }

@@ -4,7 +4,7 @@ import React, {Component} from 'react';
 class Tugas9 extends Component{
     render(){
         return (
-        <div style={{margin: "2% 30% 2% 30%", padding: "20px",border: "1px solid black",borderRadius: "15px"}} className="App">
+        <div style={{margin: "10% 30% 2% 30%", padding: "20px",border: "1px solid black",borderRadius: "15px"}} className="App">
             <h1 style={{textAlign: "center"}}> Form Pembelian Buah</h1>
             <form method="" action="#" >
                 <label style={{marginLeft: "10px"}} for="nama"><strong>Nama Pelanggan</strong></label>

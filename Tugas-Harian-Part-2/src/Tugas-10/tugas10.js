@@ -30,7 +30,7 @@ class Berat extends Component{
 class Tugas10 extends Component{
     render(){
         return (
-            <div>
+            <div style={{marginTop: "10%"}}>
                 <h1 style={{textAlign: "center"}}><strong>Tabel Harga Buah</strong></h1>
                 <table style={{marginLeft: "auto",marginRight: "auto",marginBottom: "10%",border: "solid black"}} border="3" cellpadding="5" width="1000px">
                     <tr style={{border: "solid white"}}>

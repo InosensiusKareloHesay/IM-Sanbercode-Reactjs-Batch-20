@@ -1,0 +1,58 @@
+.navbarTugas {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: lavender;
+  }
+
+  .navbarTugasDark {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkslategrey;
+  }
+
+  li {
+    float: left;
+    border-right:1px solid #bbb;
+  }
+  
+  li:last-child {
+    border-right: none;
+  }
+  
+ .navbarTugas li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+.navbarTugasDark li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .navbarTugas li a:hover:not(.active) {
+    background-color: lightgreen;
+  }
+
+  .navbarTugasDark li a:hover:not(.active) {
+    background-color: darkgreen;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }

@@ -40,11 +40,11 @@ class Timer extends Component{
   render(){
       if(this.state.time > 0){
         return( 
-                <>
+                <div style={{marginTop: "10%"}}>
                     <h1 style={{textAlign: "center"}}>
                     Sekarang jam : {this.state.jam}&emsp;&emsp;hitung mundur : {this.state.time}
                     </h1>
-                </>
+                </div>
         )
       }else{
           return null

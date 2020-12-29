@@ -78,7 +78,7 @@ const Lists = () =>{
     }
 
     return(
-        <>
+        <div style={{marginTop: "10%"}}>
             { dataHargaBuah !== null &&
                 (<>
                     <h1 style={{textAlign: "center"}}><strong>Tabel Harga Buah</strong></h1>
@@ -152,7 +152,7 @@ const Lists = () =>{
                             </form>
                 </>)
             }
-        </>
+        </div>
     )
 }
 
