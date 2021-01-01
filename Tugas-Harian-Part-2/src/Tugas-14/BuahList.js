@@ -31,7 +31,7 @@ const BuahList = () =>{
         })
     }
 
-    if (buah.length == 0){
+    if (buah.length === 0){
         return(
             <>
             </>
