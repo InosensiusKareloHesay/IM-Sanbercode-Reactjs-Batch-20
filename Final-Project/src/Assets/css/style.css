@@ -1,0 +1,31 @@
+.btn-center{
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    top: 100%;
+    left: 56%;
+    height: 100px;
+    width: 300px;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.btn-center:hover{
+    box-shadow: 0 5px 10px 0 #FFB900;
+}
+
+.imgLanding{
+    background-size:cover;
+    filter: brightness(50%);
+    height: 500px;
+    width: 100%;
+    position: relative;
+	z-index: 1;
+}
+
+.textLanding{
+    position: absolute;
+    top: 60px;
+    z-index: 2;
+    color: #fff;
+}
